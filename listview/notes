@@ -1,0 +1,7 @@
+        // data sources(array, list etc) --> adapter --> Ui component(list views, spinner,etc)
+        // adapters convert data items into view items so that they can be displayed in UI components
+
+   1. create list view in xml
+   2. create list of data to add in list view
+   3. create adapter -- in which we pass "context, layout (how each item of list view will look), pass data"
+   4. set the newly created adapter to our list view
